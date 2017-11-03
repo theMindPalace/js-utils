@@ -1,0 +1,27 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": " rollup ./src/index.js --o ./build/bundle.js --f umd --name 'jsTUtils'",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theMindPalace/js-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theMindPalace/js-utils/issues"
+  },
+  "homepage": "https://github.com/theMindPalace/js-utils#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
